@@ -1,11 +1,23 @@
 
 
 <h1><%= yield(:title) %></h1>
-    <p>
-    Quarterdeck dance the hempen jig fire in the hole spirits
-    trysail. Ho measured fer yer chains poop deck run a rig gun.
-    Holystone gibbet Arr tender brig. Nelsons folly lookout spanker
-    crack Jennys tea cup squiffy. Gangplank scuppers bucko come
-    about crack Jennys tea cup.
-    Loot hogshead doubloon list wherry.
-    </p>
+
+
+    <div class="center jumbotron">
+      <h1>Welcome to the Sample App</h1>
+
+      <h2>
+        This is the home page for Quarterdeck dance the hempen jig fire in the hole spirits
+        trysail. Ho measured fer yer chains poop deck run a rig gun.
+        Holystone gibbet Arr tender brig. Nelsons folly lookout spanker
+        crack Jennys tea cup squiffy. Gangplank scuppers bucko come
+        about crack Jennys tea cup.
+        Loot hogshead doubloon list wherry.
+
+      </h2>
+
+      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    </div>
+
+    <%= link_to image_tag("rails.png", alt: "Rails logo"),
+                'http://rubyonrails.org/' %>
